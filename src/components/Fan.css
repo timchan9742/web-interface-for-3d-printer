@@ -1,0 +1,26 @@
+.fan {
+  padding-left: 10px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.fan-header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.fan-header-icon {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.fan-slider {
+  display: flex;
+  align-items: center;
+}
+
+.fan-slider >h3 {
+  padding-right: 10px;
+}

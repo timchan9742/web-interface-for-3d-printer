@@ -1,0 +1,6 @@
+.left-panel {
+  flex: 0.50;
+  margin: 0px 10px;
+  max-width: 50vw;
+  overflow: hidden;
+}

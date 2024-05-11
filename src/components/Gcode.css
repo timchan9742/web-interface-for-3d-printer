@@ -1,0 +1,70 @@
+.gcode {
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.gcode-header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.gcode-header-icon {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.gcode-header > h3 {
+  flex: 0.9;
+  padding: 0px 10px;
+}
+
+.gcode-header-option {
+  align-items: center;
+}
+
+.gcode-row {
+  display: flex;
+  border-bottom: 2px solid gray;
+  align-items: center;
+}
+
+.gcode-row-icon {
+  flex: 0.05;
+  display: flex;
+  align-items: center;
+}
+
+.gcode-row-content {
+  flex: 0.98;
+  display: flex;
+}
+
+.gcode-row-content > p {
+  text-align: left;
+}
+
+.gcode-row-content > #first-column {
+  align-items: center;
+  word-break: break-all;
+  flex: 0.45;
+}
+
+.gcode-row-content > #second-column {
+  align-items: center;
+  word-break: break-all;
+  flex: 0.4;
+}
+
+.gcode-row-content > #third-column {
+  align-items: center;
+  word-break: break-all;
+  flex: 0.2;
+}
+
+
+.content-display-row > .input:focus {
+  outline: none !important;
+  height: 20px;
+}

@@ -1,0 +1,15 @@
+
+/* .app {
+  margin: 0px;
+  overflow: scroll;
+  max-width: 100%;
+  overflow-x: hidden;
+} */
+
+.app-body {
+  display: flex;
+  background-color: #eff2f5;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding-top: 10px;
+}

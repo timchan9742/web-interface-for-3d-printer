@@ -1,0 +1,25 @@
+.config {
+  background-color: #eff2f5;
+}
+
+.config-header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.config-header > h3 {
+  padding-left: 10px;
+  padding-right: 89%;
+}
+
+.config-content {
+  background-color: #eff2f5;
+  margin: 0 5px;
+}
+
+.config-bottom {
+  margin-top: 15px;
+  align-items: center;
+  float: right;
+}

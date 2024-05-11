@@ -1,0 +1,39 @@
+.thermal {
+  background-color: white;
+  margin-bottom: 15px
+}
+.thermal-header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.thermal-header-icon {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.thermal-row {
+  height: 50px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+}
+
+.thermal-row > p {
+  flex: 0.25;
+}
+
+.thermal-row > input {
+  flex: 0.25;
+  border: none;
+}
+
+.thermal-chart {
+  display: flex;
+  margin-top: 10px;
+  height: 320px;
+  background-color: blue;
+}

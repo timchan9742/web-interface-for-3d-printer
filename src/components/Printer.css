@@ -1,0 +1,145 @@
+.printer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.printer-display {
+  flex: 0.5;
+  background-color: white;
+  border-right: 2px solid black;
+  padding: 0 10px;
+  height: 520px;
+}
+
+.printer-display-header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.printer-display-header-icon {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.printer-control {
+  flex: 0.5;
+  background-color: white;
+  padding: 0 10px;
+  height: 520px;
+}
+
+.printer-control-header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.printer-control-header-icon {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+
+.printer-control-first {
+  display: flex;
+  align-items: center;
+  /* padding-left: 10px; */
+}
+
+.printer-control-second {
+  display: flex;
+  align-items: center;
+  /* padding-left: 10px; */
+}
+
+.printer-control-third {
+  display: flex;
+  align-items: center;
+  /* padding-left: 10px; */
+  padding-bottom: 5px;
+}
+
+.printer-control-fourth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.printer-control-fifth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.printer-control-sixth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.printer-control-seventh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.printer-control-option {
+  display: flex;
+  align-items: center;
+}
+
+.printer-display-progress-header {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  height: 40px;
+}
+
+.printer-display-progress-header > h4 {
+  width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  /* text-overflow: ellipsis; */
+}
+
+.printer-display-progress-body {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+/* .printer-display-progress-left > .MuiCircularProgress-svg {
+  background-color: black;
+} */
+
+.printer-display-progress-left {
+  padding: 0 10px;
+}
+
+.printer-display-closedloop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.printer-display-position {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.printer-display-slider {
+}
